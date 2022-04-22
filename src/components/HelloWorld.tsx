@@ -1,3 +1,5 @@
-export default () => {
-  return <div>测试成功</div>
+export default ( context: any ) => {
+  console.log(context);
+  
+  return (<div> {context.msg} </div>)
 }
